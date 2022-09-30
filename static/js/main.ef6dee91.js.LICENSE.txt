@@ -10,7 +10,7 @@
 */
 
 /*!
- * GSAP 3.11.1
+ * GSAP 3.11.2
  * https://greensock.com
  *
  * @license Copyright 2008-2022, GreenSock. All rights reserved.
