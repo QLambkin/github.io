@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
-import { gsap } from "gsap";
-import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { gsap } from "gsap/dist/gsap";
+import { DrawSVGPlugin } from "gsap/dist/DrawSVGPlugin";
 import LogoS from '../../../assets/images/Q-logo.svg'
 import './Logo.scss'
 
