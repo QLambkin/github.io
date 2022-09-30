@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.tagcloud {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 52%;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #ffc300;
+}
+
+.tagcloud--item:hover {
+  color: white;
+}
