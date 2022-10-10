@@ -20,7 +20,7 @@ const Logo = () => {
       })
       .from(outlineLogoRef.current, {
         drawSVG: 0,
-        duration: 17,
+        duration: 15,
       })
 
     gsap.fromTo(

@@ -35,12 +35,6 @@
             "title": "Tindog",
             "description": "Mock landing page created for a website designed to help your dog find the love of their life. Created using HTML, CSS and Bootstrap.",
             "url": "https://github.com/QLambkin/Tindog"
-        },
-        {
-            "cover": "/portfolio/images/SlidingCube.jpg",
-            "title": "Cube Slider",
-            "description": "Game created using Unity and C# where the objective is to slide a cube left and right to avoid the procedurally generated objects for as long as possible.",
-            "url": "https://github.com/QLambkin/SlidingCube"
         }
     ]
 }
