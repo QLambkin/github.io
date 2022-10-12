@@ -4,10 +4,6 @@ import './AnimatedLetters.scss'
 const AnimatedLetters = ({ letterClass, strArray, idx }) => {
 
   function toggleRubberBand(e) {
-    if(e.target === undefined) {
-      console.log(e.target);
-      return
-    }
     e.target.classList.add('bouncing')
     e.target.addEventListener('animationend', () => {
       e.target.classList.remove('bouncing')
