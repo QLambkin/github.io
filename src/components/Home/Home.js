@@ -10,8 +10,10 @@ import './Home.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
+  const hiArray = 'Hi,'.split('')
+  const imArray = "I'm".split('')
   const nameArray = 'uentin'.split('')
-  const jobArray = 'web developer'.split('')
+  const jobArray = 'Web Developer'.split('')
 
   useEffect(() => {
     setTimeout(() => {
@@ -24,13 +26,17 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i</span>
-            <span className={`${letterClass} _13`}>,</span>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={hiArray}
+              idx={9}
+            />
             <br />
-            <span className={`${letterClass} _14`}>I</span>
-            <span className={`${letterClass} _15`}>'</span>
-            <span className={`${letterClass} _16`}>m</span>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={imArray}
+              idx={12}
+            />
             <img src={LogoTitle} alt="developer" />
             <AnimatedLetters
               letterClass={letterClass}
@@ -46,7 +52,7 @@ const Home = () => {
             <br />
           </h1>
           <p>
-            Web Developer | Software Engineer | Java Developer 
+            Web Developer | Software Engineer | Java Developer
             <br />
           </p>
           <div className="button-box">
