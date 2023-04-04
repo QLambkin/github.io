@@ -52,7 +52,7 @@ const Home = () => {
             <br />
           </h1>
           <p>
-            Web Developer | Software Engineer | Java Developer
+            Web Developers | Software Engineer | Java Developer
             <br />
           </p>
           <div className="button-box">
