@@ -1,16 +1,16 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/images/DBank.jpg",
+            "title": "Spotification",
+            "description": "Application that displays a spotify users public playlists as well as top artists and tracks within the last month, 6 months, and year of listening.",
+            "url": "https://spotification.herokuapp.com/"
+        },
+        {
             "cover": "/portfolio/images/KeeperApp.jpg",
             "title": "Note Keeper",
             "description": "Dynamic note keeping application created using React hooks to post notes to a list which is displayed on a board.",
-            "url": "https://github.com/QLambkin/KeeperApp"
-        },
-        {
-            "cover": "/portfolio/images/DBank.jpg",
-            "title": "Decentralized Finance App",
-            "description": "Decentralized finance application implemented through Motoko that demonstrates the effect of compound interest.",
-            "url": "https://github.com/QLambkin/DBank"
+            "url": "https://qlambkin.github.io/KeeperApp/"
         },
         {
             "cover": "/portfolio/images/PathFinder.jpg",
@@ -20,9 +20,9 @@
         },
         {
             "cover": "/portfolio/images/BlogSite.jpg",
-            "title": "Blog Website",
-            "description": "Blog style website created through using JavaScript along with Express and Mongoose to dynamically create and add posts to the main page of the website.",
-            "url": "https://github.com/QLambkin/Blog-Website"
+            "title": "Sorting Visualizer",
+            "description": "React website that provides a visualization of how Merge Sort sorts an array of randomly assigned values.",
+            "url": "https://qlambkin.github.io/SortingVisualizer/"
         },
         {
             "cover": "/portfolio/images/Connect4.jpg",
@@ -34,7 +34,7 @@
             "cover": "/portfolio/images/tindog.jpg",
             "title": "Tindog",
             "description": "Mock landing page created for a website designed to help your dog find the love of their life. Created using HTML, CSS and Bootstrap.",
-            "url": "https://github.com/QLambkin/Tindog"
+            "url": "https://qlambkin.github.io/Tindog/"
         }
     ]
 }
