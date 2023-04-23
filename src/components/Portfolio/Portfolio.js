@@ -21,7 +21,7 @@ const Portfolio = () => {
     return (
       <div className="images-container">
         {portfolio.map((port, idx) => {
-          return (
+          return ( 
             <div className="image-box" key={idx}> 
               <img
                 src={port.cover}
