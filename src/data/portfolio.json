@@ -1,10 +1,16 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/images/DBank.jpg",
+            "cover": "/portfolio/images/Spotification.png",
             "title": "Spotification",
             "description": "Application that displays a spotify users public playlists as well as top artists and tracks within the last month, 6 months, and year of listening.",
             "url": "https://spotification.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/images/SortingVisualizer.png",
+            "title": "Sorting Visualizer",
+            "description": "React website that provides a visualization of how Merge Sort sorts an array of randomly assigned values.",
+            "url": "https://qlambkin.github.io/SortingVisualizer/"
         },
         {
             "cover": "/portfolio/images/KeeperApp.jpg",
@@ -12,18 +18,14 @@
             "description": "Dynamic note keeping application created using React hooks to post notes to a list which is displayed on a board.",
             "url": "https://qlambkin.github.io/KeeperApp/"
         },
+        
         {
             "cover": "/portfolio/images/PathFinder.jpg",
             "title": "Path Finder",
             "description": "Path finding algorithm designed to find the shortest path between a designated start and end point. Uses A* Search through Python to dictate which route to traverse.",
             "url": "https://github.com/QLambkin/PythonPathfinder"
         },
-        {
-            "cover": "/portfolio/images/BlogSite.jpg",
-            "title": "Sorting Visualizer",
-            "description": "React website that provides a visualization of how Merge Sort sorts an array of randomly assigned values.",
-            "url": "https://qlambkin.github.io/SortingVisualizer/"
-        },
+        
         {
             "cover": "/portfolio/images/Connect4.jpg",
             "title": "Connect4 AI",
