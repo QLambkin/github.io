@@ -22,7 +22,7 @@
         {
             "cover": "/portfolio/images/PathFinder.jpg",
             "title": "Path Finder",
-            "description": "Path finding algorithm designed to find the shortest path between a designated start and end point using A* Search through Python to dictate which route to traverse.",
+            "description": "Path finding app designed to find the shortest path between a designated start and end point using A* Search through Python.",
             "url": "https://github.com/QLambkin/PythonPathfinder"
         },
         
