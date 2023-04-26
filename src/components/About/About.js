@@ -28,7 +28,7 @@ const About = () => {
           <p>
             I am an eager Software Engineer with a fundamental understanding of
             software design and the Agile development cycle. Capable of
-            implementing Java, MERN and JavaScript solutions while utilizing
+            implementing Java, MERN and Python solutions while utilizing
             strong interpersonal, analytical, and programming skills to succeed
             as a software engineer.
             <br />
