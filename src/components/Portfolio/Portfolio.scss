@@ -4,12 +4,18 @@
   width: calc(100% - 150px);
   position: initial;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 
   h1.page-title {
     margin-left: 60px;
     margin-top: 105px;
     margin-bottom: 25px;
+  }
+
+  .project-container {
+    transform-style: preserve-3d;
+    animation: fadeInUp 3s 0s;
+    animation-fill-mode: forwards;
   }
 
   .images-container {
