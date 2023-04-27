@@ -22,7 +22,7 @@ const About = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']}
-              idx={15} //1.5 second delay
+              idx={10} //1.5 second delay
             />
           </h1>
           <p>
@@ -32,7 +32,9 @@ const About = () => {
             strong interpersonal, analytical, and programming skills to succeed
             as a software engineer.
             <br />
+            </p>
             <br />
+            <p>
             Graduated from the University of Windsor with a Bachelor of
             Computer Science. I completed courses in JavaScript, HTML5, CSS,
             Bootstrap, Java, Python, C, C#, Data Structures, Algorithms,
