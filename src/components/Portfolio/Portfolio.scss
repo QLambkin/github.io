@@ -12,11 +12,9 @@
     margin-bottom: 25px;
   }
 
-  .project-container {
-    transform-style: preserve-3d;
-    animation: fadeInUp 3s 0s;
-    animation-fill-mode: forwards;
-  }
+  //   .project-container {
+  //     animation: fadeIn 2s linear 1 backwards;
+  //   }
 
   .images-container {
     display: flex;
@@ -33,6 +31,35 @@
     border-radius: 10px;
     margin: auto;
     max-width: calc(33% - 10px);
+    animation: fadeIn 1s linear 1 backwards;
+
+    &:nth-of-type(1) {
+      animation-delay: 1.25s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: 1.5s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: 1.75s;
+    }
+    &:nth-of-type(4) {
+      animation-delay: 2s;
+    }
+    &:nth-of-type(5) {
+      animation-delay: 2.25s;
+    }
+    &:nth-of-type(6) {
+      animation-delay: 2.5s;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
 
     .portfolio-image {
       position: absolute;
