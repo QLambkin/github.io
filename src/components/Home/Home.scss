@@ -57,7 +57,7 @@
     font-size: 18px;
     font-family: sans-serif;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeIn 1s 1.8s linear backwards;
 
     &:before {
       content: '<p>';
@@ -67,7 +67,7 @@
       position: absolute;
       margin-top: -20px;
       left: -20px;
-      opacity: 0.6;
+      animation: fadeIn 1s 1.8s linear backwards;
     }
 
     &:after {
@@ -77,8 +77,16 @@
       font-size: 18px;
       position: absolute;
       margin-left: -20px;
-      // animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
+      animation: fadeIn 1s 1.8s linear backwards;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
 
