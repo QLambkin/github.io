@@ -30,7 +30,7 @@ const About = () => {
             software design and the Agile development cycle. Capable of
             implementing Java, MERN and Python solutions while utilizing
             strong interpersonal, analytical, and programming skills to succeed
-            as a software engineer.
+            as a software engineer. 
             <br />
             </p>
             <br />
