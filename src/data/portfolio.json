@@ -3,7 +3,7 @@
         {
             "cover": "/portfolio/images/Spotification.png",
             "title": "Spotification",
-            "description": "Spotify API that pulls user data and displays the spotify users public playlists as well as top artists and tracks within different time periods.",
+            "description": "Spotify API that pulls user data and displays the Spotify users public playlists as well as top artists and tracks within different time periods.",
             "url": "https://spotification.herokuapp.com/"
         },
         {
