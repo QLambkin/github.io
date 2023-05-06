@@ -17,7 +17,7 @@
             "title": "Note Keeper",
             "description": "Dynamic note keeping application created using React hooks to post notes to a list visually displayed on a board.",
             "url": "https://qlambkin.github.io/KeeperApp/"
-        },
+        }, 
         {
             "cover": "/portfolio/images/PathFinder.jpg",
             "title": "Path Finder",
