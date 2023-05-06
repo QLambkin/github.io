@@ -23,7 +23,7 @@
             "title": "Path Finder",
             "description": "Path finding application designed to find the shortest path between a designated start and end point using an A* Search implementation through Python.",
             "url": "https://github.com/QLambkin/PythonPathfinder"
-        }, 
+        },  
         {
             "cover": "/portfolio/images/Connect4.jpg",  
             "title": "Connect4 AI",
