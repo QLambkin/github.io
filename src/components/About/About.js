@@ -28,23 +28,25 @@ const About = () => {
           <p>
             I am an eager Software Engineer with a fundamental understanding of
             software design and the Agile development cycle. Capable of
-            implementing Java, MERN and Python solutions while utilizing
-            strong interpersonal, analytical, and programming skills to succeed
-            as a software engineer. 
+            implementing Java, MERN and Python solutions while utilizing strong
+            interpersonal, analytical, and programming skills to succeed as a
+            software engineer.
             <br />
-            </p>
-            <br />
-            <p>
-            Graduated from the University of Windsor with a Bachelor of
-            Computer Science. I completed courses in JavaScript, HTML5, CSS,
-            Bootstrap, Java, Python, C, C#, Data Structures, Algorithms,
-            Computer Architecture, Agile Development, Operating Systems,
-            Databases, Web Development, Game Development, and many others
-            covering key topics in AI, abstraction, and design.
+          </p>
+          <br />
+          <p>
+            Graduated from the University of Windsor with a Bachelor of Computer
+            Science. I completed courses in JavaScript, HTML5, CSS, Bootstrap,
+            Java, Python, C, C#, Data Structures, Algorithms, Computer
+            Architecture, Agile Development, Operating Systems, Databases, Web
+            Development, Game Development, and many others covering key topics
+            in AI, abstraction, and design.
             <br />
           </p>
         </div>
-        <SkillsBall />
+        <div className="skillsball">
+          <SkillsBall />
+        </div>
       </div>
       <Loader type="pacman" />
     </>
