@@ -233,6 +233,20 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
+  .tags,
+  .contact-form::before,
+  .contact-form::after {
+    display: none;
+  }
+
+  .text-zone {
+    margin-top: -80px;
+  }
+
+  .contact-form {
+    margin-top: -30px;
+  }
+
   .map-wrap {
     float: none;
     width: 100%;

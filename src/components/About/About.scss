@@ -137,6 +137,18 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .tags,
+  h1::before,
+  h1::after,
+  p::before,
+  p::after {
+    display: none;
+  }
+
+  .text-zone {
+    margin-top: -40px;
+  }
+  
   .tagcloud {
     display: none;
     // position: initial;

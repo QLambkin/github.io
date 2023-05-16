@@ -23,30 +23,32 @@ const Sidebar = () => {
         <h4 className="logo-subtitle">Quentin</h4>
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink onClick={() => setShowNav(false)} end to="/">
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
-          onClick={() => setShowNav(false)}
-          className="about-link"
-          to="/about"
-        >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
-          onClick={() => setShowNav(false)}
-          className="portfolio-link"
-          to="/portfolio"
-        >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
-          onClick={() => setShowNav(false)}
-          className="contact-link"
-          to="/contact"
-        >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-        </NavLink>
+        <div className="nav-links">
+          <NavLink onClick={() => setShowNav(false)} end to="/">
+            <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          </NavLink>
+          <NavLink
+            onClick={() => setShowNav(false)}
+            className="about-link"
+            to="/about"
+          >
+            <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          </NavLink>
+          <NavLink
+            onClick={() => setShowNav(false)}
+            className="portfolio-link"
+            to="/portfolio"
+          >
+            <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          </NavLink>
+          <NavLink
+            onClick={() => setShowNav(false)}
+            className="contact-link"
+            to="/contact"
+          >
+            <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          </NavLink>
+        </div>
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}

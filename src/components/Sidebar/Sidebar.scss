@@ -188,6 +188,12 @@
 
       &.mobile-show {
         display: block;
+
+        .nav-links {
+          position: absolute;
+          top: 25%;
+          width: 100%;
+        }
       }
     }
 
