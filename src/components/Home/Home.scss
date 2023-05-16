@@ -158,17 +158,34 @@
 @media screen and (max-width: 1200px) {
   .tags,
   .home-page h1::before,
-  .home-page h1::after {
+  .home-page h1::after,
+  .home-page p::before,
+  .home-page p::after {
     display: none;
   }
 
   .home-page {
-    .text-zone{
+    .text-zone {
       position: initial;
       width: 100%;
-      transform: none; 
+      transform: none;
       padding: 10px;
       box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 50px;
+      line-height: 60px;
+  
+      img {
+        margin-left: 20px;
+        margin-bottom: -20px;
+        opacity: 0;
+        width: 50px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+      }
     }
 
     .flat-button {
