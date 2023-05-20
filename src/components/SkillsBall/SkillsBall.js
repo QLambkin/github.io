@@ -36,7 +36,7 @@ function SkillsBall() {
             keep: true,
         })
  
-        IsTagCloudLoaded.current = true
+        IsTagCloudLoaded.current = true 
     }, [])
 
     return (<div className='content' />)
