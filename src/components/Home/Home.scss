@@ -175,15 +175,15 @@
     }
 
     h1 {
-      font-size: 50px;
-      line-height: 60px;
+      font-size: 12vmin;
+      line-height: 12vmin;
       margin-top: 40px;
   
       img {
         margin-left: 20px;
-        margin-bottom: -20px;
+        margin-bottom: -2vmin;
         opacity: 0;
-        width: 50px;
+        width: 10vmin;
         height: auto;
         animation: rotateIn 1s linear both;
         animation-delay: 1.4s;
