@@ -34,7 +34,7 @@ function SkillsBall() {
             initSpeed: 'fast',
             direction: 135,
             keep: true,
-        })
+        }) 
  
         IsTagCloudLoaded.current = true 
     }, [])
