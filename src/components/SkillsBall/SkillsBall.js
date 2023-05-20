@@ -35,7 +35,7 @@ function SkillsBall() {
             direction: 135,
             keep: true,
         })
-
+ 
         IsTagCloudLoaded.current = true
     }, [])
 
