@@ -41,5 +41,5 @@ function SkillsBall() {
 
     return (<div className='content' />)
 }
- 
+  
 export default SkillsBall; 
