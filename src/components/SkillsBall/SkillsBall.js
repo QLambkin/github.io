@@ -39,7 +39,7 @@ function SkillsBall() {
     IsTagCloudLoaded.current = true
   }, [])
 
-  return <div className="content" />
+  return <div className="content" /> 
 }
 
 export default SkillsBall
