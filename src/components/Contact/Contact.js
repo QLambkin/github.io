@@ -26,7 +26,7 @@ const Contact = () => {
         form.current,
         'mPzdkDmcx8ELeCezs'
       )
-      .then(
+      .then( 
         () => {
           alert('Message has been sent!')
           window.location.reload(false)
