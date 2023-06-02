@@ -24,7 +24,7 @@ const Contact = () => {
         'service_xqbkgeg',
         'template_0dnnsfv',
         form.current,
-        'mPzdkDmcx8ELeCezs'
+        'mPzdkDmcx8ELeCezs' 
       )
       .then( 
         () => {
