@@ -12,7 +12,7 @@ const Contact = () => {
 
   useEffect(() => { 
     setTimeout(() => { 
-      setLetterClass('text-animate-hover')
+      setLetterClass('text-animate-hover') 
     }, 3000)
   }, [])
 
