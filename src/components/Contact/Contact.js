@@ -10,7 +10,7 @@ const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 
-  useEffect(() => {
+  useEffect(() => { 
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
