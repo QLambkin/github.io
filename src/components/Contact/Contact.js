@@ -10,26 +10,26 @@ const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 
-  useEffect(() => { 
-    setTimeout(() => {  
-      setLetterClass('text-animate-hover') 
+  useEffect(() => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
 
   const sendEmail = (e) => {
     e.preventDefault()
-  
+
     emailjs
       .sendForm(
         'service_xqbkgeg',
         'template_0dnnsfv',
         form.current,
-        'mPzdkDmcx8ELeCezs' 
+        'mPzdkDmcx8ELeCezs'
       )
-      .then( 
+      .then(
         () => {
           alert('Message has been sent!')
-          window.location.reload(false) 
+          window.location.reload(false)
         },
         () => {
           alert('Failed to send the message, please try again.')
@@ -124,5 +124,4 @@ const Contact = () => {
   )
 }
 
-export default Contact 
-  
+export default Contact
