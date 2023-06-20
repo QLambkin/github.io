@@ -25,7 +25,7 @@
       "url": "https://github.com/QLambkin/PythonPathfinder"
     },
     { 
-      "cover": "/portfolio/images/Connect4.jpg",
+      "cover": "/portfolio/images/Connect4.jpg", 
       "title": "Connect4 AI",
       "description": "Python AI created to play a perfect game of Connect4 using the Mini-Max algorithm along with alpha-beta pruning to aid in informing the AI's next move.",
       "url": "https://github.com/QLambkin/Connect4-AI"
