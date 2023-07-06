@@ -51,8 +51,8 @@ const Sidebar = () => {
         </div>
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
-          icon={faClose} 
-          color="#ffd700" 
+          icon={faClose}
+          color="#ffd700"
           size="3x"
           className="close-icon"
         />
@@ -89,4 +89,3 @@ const Sidebar = () => {
 }
 
 export default Sidebar
-                
