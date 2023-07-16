@@ -17,7 +17,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <div className="text-zone"> 
+        <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -54,4 +54,3 @@ const About = () => {
 }
 
 export default About
-                 
