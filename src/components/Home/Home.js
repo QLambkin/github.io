@@ -13,7 +13,7 @@ const Home = () => {
   const hiArray = 'Hi,'.split('')
   const imArray = "I'm".split('')
   const nameArray = 'uentin'.split('')
-  const jobArray = 'Web Developer'.split('')
+  const jobArray = 'Software Engineer'.split('')
 
   useEffect(() => {
     setTimeout(() => {
