@@ -39,10 +39,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ] 
+    ]
   },
-  "browserslist": { 
-    "production": [ 
+  "browserslist": {
+    "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
